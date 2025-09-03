@@ -1,0 +1,58 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+myenv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation and images
+*.md
+images/
+documents/
+
+# Notebooks (not needed in production)
+notebooks/
+
+# Database files
+*.sql
+*.db
+*.sqlite
+
+# Log files
+*.log
+
+# Zip files
+*.zip
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
